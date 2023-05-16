@@ -31,7 +31,6 @@ html,body{
 .container{
     max-width: 1170px;
     margin: 0 auto;
-  
 
 }
 .header{
@@ -74,10 +73,10 @@ html,body{
     max-width: 1170px;
     margin: 0 auto;
     width: 100%;
-
+    position: relative;
 }
 .main{
-    position: relative;
+    position:relative;
     flex: 1 1 auto;
     margin-bottom: 49px;
 }
@@ -90,13 +89,16 @@ html,body{
 }
 .main_row{
     display: flex;
-    margin-top: 50PX;
+    margin-top: 50px;
     gap: 30px;
 }
 .footer{
     background-color: #02A28F;  
     padding: 17px 0;
     text-align: center;
+    margin-top: 50px;
+
+
 }
 .file_info{
     width: 744px;
